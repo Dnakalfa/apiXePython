@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "apixepython"
+version = "1.0.0"
+description = "APP para consumo de API do X"
+authors = ["Umberto Alves <https://github.com/Dnakalfa>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tweepy = "^4.14.0"
+pymongo = "^4.6.1"
+fastapi = "^0.105.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+flake8 = "^6.1.0"
+black = "^23.12.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
